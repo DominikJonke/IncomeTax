@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IncomeTax
 {
@@ -10,6 +6,9 @@ namespace IncomeTax
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\t\t\t Tax Income Calculator");
+            Console.WriteLine();
+            Console.WriteLine($"You must pay {Tax.QueryTax()} Euro");
         }
     }
 }
